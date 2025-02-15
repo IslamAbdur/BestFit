@@ -5,4 +5,4 @@ An app that creates an outfit for you based on your preferences.
 1. Set-up database.
 2. Set up a docker
 3. Luke needs to download GitHub
-4. Everyone 
+4. Everyone makes a branch
