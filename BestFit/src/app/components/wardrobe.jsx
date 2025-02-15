@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { PlusCircle } from "lucide-react";
+import {uploadFiles} from "@/app/api/auth.js"
 import "./upload.css";
 
 export default function UploadPage() {
@@ -26,6 +27,9 @@ export default function UploadPage() {
     setUploading(true);
     const formData = new FormData();
     formData.append("file", selectedFile);
+
+    const {data, error} = await uploadFiles(formData);
+
   };
 
   return (

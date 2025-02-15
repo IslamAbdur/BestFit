@@ -1,4 +1,3 @@
-/* Container with dynamic background */
 .upload-container {
     margin-top: 200px;
     width: 200px;
@@ -7,7 +6,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 12px;
-
     position: relative;
     background-size: cover;
     background-position: center;
@@ -15,16 +13,14 @@
     transition: background 0.3s ease-in-out;
 }
 
-/* Hide default file input */
 #file-upload {
     display: none;
 }
 
-/* Upload box with plus icon */
 .upload-box {
     width: 100%;
     height: 100%;
-    border: 2px dashed #0070f3;
+    border: 2px solid #0070f3;
     border-radius: 12px;
     display: flex;
     flex-direction: column;

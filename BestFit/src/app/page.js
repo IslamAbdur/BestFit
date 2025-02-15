@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use client';
 
 import React from 'react';
@@ -54,5 +55,16 @@ export default function Home() {
       {value === "upload" && <div>Upload Clothing Content</div>}
     
     </>
+=======
+import Image from "next/image";
+import styles from "./page.module.css";
+import UploadPage from "./components/wardrobe.jsx";
+
+export default function Home() {
+  return (
+    <div className={styles.page}>
+      <UploadPage></UploadPage>
+    </div>
+>>>>>>> 7344d1c (Starting backend api for uploading files)
   );
 }

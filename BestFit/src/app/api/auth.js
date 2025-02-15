@@ -1,5 +1,9 @@
 import { supabase } from "../utils/supabase";
 
+export const uploadFiles = async (files) => {
+    
+}
+
 // Sign up function
 export const signUp = async (email, password, username) => {
     const { data, error } = await supabase.auth.signUp({ email, password });
