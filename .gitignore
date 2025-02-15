@@ -1,0 +1,5 @@
+# Ignore Babel files
+/dist/
+/build/
+/lib/
+/*.map
