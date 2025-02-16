@@ -1,6 +1,5 @@
 /* Container with dynamic background */
-.upload-container {
-    margin-top: 200px;
+/* .upload-container {
     width: 200px;
     height: 75px;
     display: flex;
@@ -13,14 +12,14 @@
     background-position: center;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: background 0.3s ease-in-out;
-}
+} */
 
-/* Hide default file input */
-#file-upload {
+
+/* #file-upload {
     display: none;
 }
 
-/* Upload box with plus icon */
+
 .upload-box {
     width: 100%;
     height: 100%;
@@ -37,4 +36,4 @@
 
 .upload-box:hover {
     box-shadow:  1px 1px 15px 1px #0070f3;
-}
+} */
