@@ -4,7 +4,7 @@ import { useState } from "react";
 import { PlusCircle } from "lucide-react";
 import "./upload.css";
 
-export default function UploadPage() {
+export default function Wardrobe() {
   const [selectedFile, setSelectedFile] = useState(null);
   const [preview, setPreview] = useState(null);
   const [uploading, setUploading] = useState(false);
