@@ -41,104 +41,107 @@ a {
   }
 }
 
-/* Container with dynamic background */
+
 .upload-container {
-  width: 200px;
-  height: 75px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 12px;
-
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transition: background 0.3s ease-in-out;
+    /* margin-top: 500px; */
+    width: 80%;
+    height: 600px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
 }
 
-/* Hide default file input */
 #file-upload {
-  display: none;
+    display: none;
+} */
+
+.upload-container {
+    width: 200px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease-in-out;
+} */
+
+
+#file-upload {
+    display: none;
 }
 
-/* Upload box with plus icon */
+
 .upload-box {
-  width: 100%;
-  height: 100%;
-  border: 2px dashed #0070f3;
-  border-radius: 12px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  cursor: pointer;
-  transition: background 0.3s ease;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #0070f3;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
 }
 
 .upload-box:hover {
-  box-shadow:  1px 1px 15px 1px #0070f3;
+    box-shadow: 1px 1px 15px 1px #0070f3;
 }
 
-
-/* AppBar Styling */
-.appBar {
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #3f51b5; /* You can change the background color */
+.preview-container {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
-/* Typography inside AppBar */
-.appBar .title {
-  flex-grow: 2;
-  text-align: center;
-  color: white; /* Change text color as needed */
+.preview-item {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #ddd;
 }
 
-/* Styling for Tabs */
-.tabsContainer {
-  background-color: #f0f0f0;
-  padding: 10px;
+.preview-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.tab {
-  color: black !important; /* Ensuring the tab text is black */
-  text-transform: none; /* Prevents the tab text from being uppercase */
-  font-weight: bold;
+.upload-all-button {
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-/* Styling for content when the tab is selected */
+.upload-all-button:hover:not(:disabled) {
+    background-color: #005bb5;
+    box-shadow:  1px 1px 15px 1px #0070f3;
+}
+
 .upload {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
-  background-color: #e0e0e0; /* Optional background color */
+  height: 100%;
+  width: 100%;
+  min-height: 70vh; /* Ensures it's placed in the middle of the screen */
+  background-color: #e0e0e0;
   border-radius: 8px;
-  margin-top: 20px;
+  margin-top: 10px; /* Reduce space */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.upload div {
-  font-size: 20px;
-  color: #333; /* Text color */
-}
-
-/* Styling for the Tabs Container to align it properly */
-.tabsContainer {
-  /* margin-top: 50px; Adjusts the margin for spacing between AppBar and Tabs */
-}
-
-/* Customize the content based on the active tab */
-.activeTabContent {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

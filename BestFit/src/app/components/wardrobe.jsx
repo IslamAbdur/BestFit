@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { PlusCircle } from "lucide-react";
-import { uploadFiles } from "@/app/api/auth.js";
-import "./upload.css";
+// import { uploadFiles } from "@/app/api/auth.js";
+// import "./upload.css";
 
 
 export default function Wardrobe() {

@@ -1,10 +1,8 @@
-
 'use client';
 
 import React from 'react';
 import { useState } from 'react';
 import Wardrobe from './components/wardrobe';
-import './page.module.css';
 
 import MenuIcon from '@mui/icons-material/Menu'; // Optional, for menu icon
 import { AppBar, IconButton, Tab, Tabs, Toolbar, Typography } from '@mui/material';
