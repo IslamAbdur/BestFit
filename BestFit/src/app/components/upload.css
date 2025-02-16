@@ -1,3 +1,4 @@
+
 .upload-container {
     margin-top: 500px;
     width: 80%;
@@ -11,6 +12,28 @@
 #file-upload {
     display: none;
 }
+
+/* Container with dynamic background */
+/* .upload-container {
+    width: 200px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease-in-out;
+} */
+
+
+/* #file-upload {
+    display: none;
+}
+
 
 .upload-box {
     width: 200px;
@@ -66,3 +89,6 @@
 .upload-all-button:hover:not(:disabled) {
     background-color: #005bb5;
 }
+=======
+    box-shadow:  1px 1px 15px 1px #0070f3;
+} */

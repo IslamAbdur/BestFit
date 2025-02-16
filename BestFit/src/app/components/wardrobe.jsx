@@ -5,9 +5,11 @@ import { PlusCircle } from "lucide-react";
 import { uploadFiles } from "@/app/api/auth.js";
 import "./upload.css";
 
-export default function UploadPage() {
+
+export default function Wardrobe() {
   const [selectedFiles, setSelectedFiles] = useState([]);
   const [previews, setPreviews] = useState([]);
+
   const [uploading, setUploading] = useState(false);
   const [message, setMessage] = useState("");
 
