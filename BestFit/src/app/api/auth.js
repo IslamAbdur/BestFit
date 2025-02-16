@@ -1,7 +1,8 @@
 import { supabase } from "../utils/supabase";
 
 export const uploadFiles = async (files) => {
-    
+    const user = getCurrentUser();
+    if (!user){return false};
 }
 
 // Sign up function
